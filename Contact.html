@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="appropos.html">Appropos</a></li>
+                <li><a href="Contact.html">Contacter</a></li>
+                <li><a href="Historique.html">Historique</a></li>
+                <li><a href="Activite.html">Activite</a></li>
+                <li><a href="Galerie.html">Galerie</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <title>Contacts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef0ed;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgb(127, 201, 235);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #da700d;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            color: #110b0e;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contactez-nous</h1>
+
+        <div class="contact-info">
+            <p><strong>Adresse :</strong> RDC, Nord-Kivu, Ville de Butembo, Com. Bulengera, Q. Kalemire, Cel. Muhindo, N° 03 </p>
+            <p><strong>Téléphone 1 :</strong> +243 990640894</p>
+            <p><strong>Téléphone 2 :</strong> +243 976052184</p>
+            <p><strong>Téléphone 3 :</strong> +243 836430064</p>
+            <p><strong>Téléphone 4 :</strong> +243 891938559</p>
+            <p><strong>Téléphone 5 :</strong> +243 821086569</p>
+            <p><strong>Téléphone 6 :</strong> +243 813495146</p>
+            <p><strong>Email :</strong> nashonkabunga@gmail.com</p>
+        </div>
+
+        <form action="votre_script_php_ou_email" method="post">
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sujet">Demande</label>
+                <input type="text" id="sujet" name="sujet" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Envoyer le message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024  | Cristal Entreprise</p>
+    </footer>
+
+</body>
+</html>
+
+    </main>
+</body>
+</html>
